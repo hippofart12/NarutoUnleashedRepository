@@ -1,0 +1,412 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "ninjacard2.png",
+          "use1Xscale": false,
+          "name": "ninjacard2.png",
+          "x": 87,
+          "y": 26
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ninjacardtop.png",
+          "use1Xscale": true,
+          "name": "ninjacardtop.png",
+          "x": 87,
+          "y": 8
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Mangekyo Sharingans",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": "Mangekyo Sharingans",
+          "x": 96,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Sasuke",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": "Sasuke",
+          "x": 96,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Itachi",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": "Itachi",
+          "x": 141,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Obito",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": "Obito",
+          "x": 186,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Shisui",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": "Shisui",
+          "x": 96,
+          "y": 134
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "uchiha.png",
+          "use1Xscale": false,
+          "name": "uchiha.png",
+          "x": 312,
+          "y": 35
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Go",
+          "onClick": {
+            "name": "OpenSasukeMangekyoGUI"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Go",
+          "x": 96,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Indra",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": "Indra",
+          "x": 141,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Madara",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": "Madara",
+          "x": 231,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Izuna",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": "Izuna",
+          "x": 276,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Shin",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": "Shin",
+          "x": 186,
+          "y": 134
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "sasukemangshar.png",
+          "use1Xscale": false,
+          "name": "sasukemangshar.png",
+          "x": 96,
+          "y": 107
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "onClick": {
+            "name": "SharinganPageOpen"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Back",
+          "x": 303,
+          "y": 188
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Go",
+          "onClick": {
+            "name": "OpenItachiMangekyoSharinganGui"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Go",
+          "x": 141,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "itachims.png",
+          "use1Xscale": false,
+          "name": "itachims.png",
+          "x": 141,
+          "y": 107
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Go",
+          "onClick": {
+            "name": "OpenOMSGui"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Go",
+          "x": 186,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "obitoms.png",
+          "use1Xscale": false,
+          "name": "obitoms.png",
+          "x": 186,
+          "y": 107
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Go",
+          "onClick": {
+            "name": "OpenMMSGui"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Go",
+          "x": 231,
+          "y": 80
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Go",
+          "onClick": {
+            "name": "OpenIMSGui"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Go",
+          "x": 276,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "mms2.png",
+          "use1Xscale": false,
+          "name": "mms2.png",
+          "x": 231,
+          "y": 107
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ims.png",
+          "use1Xscale": false,
+          "name": "ims.png",
+          "x": 276,
+          "y": 107
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Go",
+          "onClick": {
+            "name": "OpenSMSGui"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Go",
+          "x": 96,
+          "y": 152
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "shisuims.png",
+          "use1Xscale": false,
+          "name": "shisuims.png",
+          "x": 96,
+          "y": 179
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Go",
+          "onClick": {
+            "name": "OpenIndraMSGui"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Go",
+          "x": 141,
+          "y": 152
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "indramangshar.png",
+          "use1Xscale": false,
+          "name": "indramangshar.png",
+          "x": 141,
+          "y": 179
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Go",
+          "onClick": {
+            "name": "OpenShinGui"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Go",
+          "x": 186,
+          "y": 152
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "shinmang.png",
+          "use1Xscale": false,
+          "name": "shinmang.png",
+          "x": 186,
+          "y": 179
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "True Sight",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": "True Sight",
+          "x": 231,
+          "y": 134
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Go",
+          "onClick": {
+            "name": "OpenTrueSightMSGui"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Go",
+          "x": 231,
+          "y": 152
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "truesightms1.png",
+          "use1Xscale": false,
+          "name": "truesightms1.png",
+          "x": 231,
+          "y": 179
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

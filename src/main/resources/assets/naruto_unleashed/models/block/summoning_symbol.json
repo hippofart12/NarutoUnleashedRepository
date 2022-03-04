@@ -1,0 +1,8 @@
+{
+  "parent": "naruto_unleashed:custom/summoningsymbol",
+  "textures": {
+    "all": "naruto_unleashed:blocks/summon_jutsu",
+    "particle": "naruto_unleashed:blocks/summon_jutsu",
+    "0": "naruto_unleashed:blocks/summon_jutsu"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "naruto_unleashed:custom/hidan_head",
+  "textures": {
+    "all": "naruto_unleashed:blocks/hidan",
+    "particle": "naruto_unleashed:blocks/hidan",
+    "0": "naruto_unleashed:blocks/hidan"
+  }
+}

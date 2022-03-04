@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "ks1",
+        "1": "kubikiribocho_-_copy",
+        "3": "kubikiribocho_-_copy_2",
+        "4": "kubikiribocho_-_copy_3"
+      },
+      "name": "default"
+    }
+  }
+}

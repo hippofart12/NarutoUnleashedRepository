@@ -1,0 +1,8 @@
+{
+  "parent": "naruto_unleashed:custom/explosivetagblock_-_transparent",
+  "textures": {
+    "all": "naruto_unleashed:blocks/paperbombblocktrans",
+    "particle": "naruto_unleashed:blocks/paperbombblocktrans",
+    "0": "naruto_unleashed:blocks/paperbombblocktrans"
+  }
+}

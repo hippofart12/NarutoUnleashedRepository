@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "naruto_unleashed:blocks/mud",
+    "up": "naruto_unleashed:blocks/mud",
+    "north": "naruto_unleashed:blocks/mud",
+    "east": "naruto_unleashed:blocks/mud",
+    "south": "naruto_unleashed:blocks/mud",
+    "west": "naruto_unleashed:blocks/mud",
+    "particle": "naruto_unleashed:blocks/mud"
+  }
+}

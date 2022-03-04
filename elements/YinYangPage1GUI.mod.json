@@ -1,0 +1,238 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "ninjacard2.png",
+          "use1Xscale": false,
+          "name": "ninjacard2.png",
+          "x": 87,
+          "y": 26
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ninjacardtop.png",
+          "use1Xscale": true,
+          "name": "ninjacardtop.png",
+          "x": 87,
+          "y": 8
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Yin",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Yin",
+          "x": 96,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Yang Release",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Yang Release",
+          "x": 114,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Jutsu Points:",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Jutsu Points:",
+          "x": 96,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:integer:JutsuPoints>",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "<VAR:integer:JutsuPoints>",
+          "x": 168,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Jutsu",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Jutsu",
+          "x": 96,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Creation of All",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Creation of All",
+          "x": 96,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Things Technique",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Things Technique",
+          "x": 177,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "creationofallthingstechniquejutsu.png",
+          "use1Xscale": false,
+          "name": "creationofallthingstechniquejutsu.png",
+          "x": 96,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "30000 Jutsu Points",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "30000 Jutsu Points",
+          "x": 114,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Jutsu Combo: 1",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Jutsu Combo: 1",
+          "x": 114,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "1",
+          "x": 96,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "15000 Chakra",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "15000 Chakra",
+          "x": 123,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Requires: 200 Ninjutsu",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Requires: 200 Ninjutsu",
+          "x": 96,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Learnt",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "COATTLearntText"
+          },
+          "name": "Learnt",
+          "x": 132,
+          "y": 125
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Learn",
+          "onClick": {
+            "name": "COATTBuy"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Learn",
+          "x": 96,
+          "y": 125
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "lightning_release",
+    "customModelName": "Normal",
+    "name": "Lightning Dragon",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:NarutoUnleashedTab"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 1,
+    "actionSound": {
+      "value": ""
+    },
+    "hasGlow": false,
+    "animation": "spear",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 3.0,
+    "bulletDamage": 40.0,
+    "bulletKnockback": 3,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": ""
+    },
+    "bulletModel": "ModelLightningDragon",
+    "customBulletModelTexture": "lightningdragon.png",
+    "onBulletHitsPlayer": {
+      "name": "LightningTigerBulletHitsPlayer"
+    },
+    "onBulletHitsEntity": {
+      "name": "LightningTigerBulletHitsPlayer"
+    },
+    "onBulletFlyingTick": {
+      "name": "FireballWhileBulletFlyingTick"
+    }
+  }
+}

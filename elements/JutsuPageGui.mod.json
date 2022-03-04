@@ -1,0 +1,683 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "ninjacard2.png",
+          "use1Xscale": false,
+          "name": "ninjacard2.png",
+          "x": 87,
+          "y": 26
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ninjacardtop.png",
+          "use1Xscale": true,
+          "name": "ninjacardtop.png",
+          "x": 87,
+          "y": 8
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ninjacard2.png",
+          "use1Xscale": false,
+          "name": "ninjacard2.png",
+          "x": 87,
+          "y": 49
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Jutsu",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Jutsu",
+          "x": 96,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Fire Nature",
+          "color": {
+            "value": -6750208,
+            "falpha": 0.0
+          },
+          "name": "Fire Nature",
+          "x": 132,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Water Nature",
+          "color": {
+            "value": -16777114,
+            "falpha": 0.0
+          },
+          "name": "Water Nature",
+          "x": 132,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Lightning Nature",
+          "color": {
+            "value": -256,
+            "falpha": 0.0
+          },
+          "name": "Lightning Nature",
+          "x": 132,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Wind Nature",
+          "color": {
+            "value": -6697729,
+            "falpha": 0.0
+          },
+          "name": "Wind Nature",
+          "x": 132,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Earth Nature",
+          "color": {
+            "value": -6724096,
+            "falpha": 0.0
+          },
+          "name": "Earth Nature",
+          "x": 132,
+          "y": 206
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fire_release.png",
+          "use1Xscale": true,
+          "name": "fire_release.png",
+          "x": 96,
+          "y": 53
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "water_release.png",
+          "use1Xscale": true,
+          "name": "water_release.png",
+          "x": 96,
+          "y": 89
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lightning_release.png",
+          "use1Xscale": true,
+          "name": "lightning_release.png",
+          "x": 96,
+          "y": 125
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "wind_release.png",
+          "use1Xscale": true,
+          "name": "wind_release.png",
+          "x": 96,
+          "y": 161
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "earth_release.png",
+          "use1Xscale": true,
+          "name": "earth_release.png",
+          "x": 96,
+          "y": 197
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Go",
+          "onClick": {
+            "name": "FireNaturePage1Open"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Go",
+          "x": 141,
+          "y": 71
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Go",
+          "onClick": {
+            "name": "WaterNaturePage1Open"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Go",
+          "x": 141,
+          "y": 107
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Go",
+          "onClick": {
+            "name": "LightningNaturePage1Open"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Go",
+          "x": 141,
+          "y": 143
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Go",
+          "onClick": {
+            "name": "WindNaturePage1Open"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Go",
+          "x": 141,
+          "y": 179
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Go",
+          "onClick": {
+            "name": "EarthNaturePage1Open"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Go",
+          "x": 141,
+          "y": 215
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Other Jutsu",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Other Jutsu",
+          "x": 258,
+          "y": 62
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Go",
+          "onClick": {
+            "name": "OtherJutsuGuiOpen"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Go",
+          "x": 258,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "28 Jutsus",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "28 Jutsus",
+          "x": 177,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "22 Jutsus",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "22 Jutsus",
+          "x": 177,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "20 Jutsus",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "20 Jutsus",
+          "x": 177,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "32 Jutsus",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "32 Jutsus",
+          "x": 177,
+          "y": 179
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "29 Jutsus",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "29 Jutsus",
+          "x": 177,
+          "y": 215
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "6 Jutsus",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "6 Jutsus",
+          "x": 294,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Unlocked",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "FireReleaseUnlocked"
+          },
+          "name": "Unlocked",
+          "x": 177,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Unlocked",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "WaterReleaseUnlocked"
+          },
+          "name": "Unlocked",
+          "x": 177,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Unlocked",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "LightningReleaseUnlocked"
+          },
+          "name": "Unlocked",
+          "x": 177,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Unlocked",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "WindReleaseUnlocked"
+          },
+          "name": "Unlocked",
+          "x": 177,
+          "y": 188
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Unlocked",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "EarthReleaseUnlocked"
+          },
+          "name": "Unlocked",
+          "x": 177,
+          "y": 224
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "other_jutsu-.png",
+          "use1Xscale": true,
+          "name": "other_jutsu-.png",
+          "x": 222,
+          "y": 53
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "yin_release.png",
+          "use1Xscale": true,
+          "name": "yin_release.png",
+          "x": 222,
+          "y": 89
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "yang_release.png",
+          "use1Xscale": true,
+          "name": "yang_release.png",
+          "x": 222,
+          "y": 125
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "yin-yang_release.png",
+          "use1Xscale": true,
+          "name": "yin-yang_release.png",
+          "x": 222,
+          "y": 161
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Yin Release",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Yin Release",
+          "x": 258,
+          "y": 98
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Go",
+          "onClick": {
+            "name": "OpenYinPage1"
+          },
+          "width": 35,
+          "height": 20,
+          "name": "Go",
+          "x": 258,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Yang Release",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Yang Release",
+          "x": 258,
+          "y": 134
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Go",
+          "onClick": {
+            "name": "OpenYangJutsuPage1"
+          },
+          "width": 35,
+          "height": 20,
+          "name": "Go",
+          "x": 258,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Yin",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Yin",
+          "x": 258,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Yang",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Yang",
+          "x": 276,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Release",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Release",
+          "x": 303,
+          "y": 170
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Go",
+          "onClick": {
+            "name": "OpenYinYangGuiPage1"
+          },
+          "width": 35,
+          "height": 20,
+          "name": "Go",
+          "x": 258,
+          "y": 179
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1 Jutsu",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "1 Jutsu",
+          "x": 294,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Unlocked",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "YinReleaseUnlock"
+          },
+          "name": "Unlocked",
+          "x": 294,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Unlocked",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "YangReleaseUnlocked"
+          },
+          "name": "Unlocked",
+          "x": 294,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Unlocked",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "YinYangReleaseUnlocked"
+          },
+          "name": "Unlocked",
+          "x": 294,
+          "y": 188
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1 Jutsu",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "1 Jutsu",
+          "x": 294,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1 Jutsu",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "1 Jutsu",
+          "x": 294,
+          "y": 179
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next",
+          "onClick": {
+            "name": "OpenJutsuPage2Gui"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Next",
+          "x": 303,
+          "y": 206
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

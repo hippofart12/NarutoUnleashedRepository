@@ -1,0 +1,381 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "ninjacard2.png",
+          "use1Xscale": false,
+          "name": "ninjacard2.png",
+          "x": 87,
+          "y": 26
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ninjacardtop.png",
+          "use1Xscale": true,
+          "name": "ninjacardtop.png",
+          "x": 87,
+          "y": 8
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Water Nature",
+          "color": {
+            "value": -16777063,
+            "falpha": 0.0
+          },
+          "name": "Water Nature",
+          "x": 96,
+          "y": 35
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "water_release.png",
+          "use1Xscale": false,
+          "name": "water_release.png",
+          "x": 267,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Jutsu",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Jutsu",
+          "x": 96,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Dense Rain Jutsu",
+          "color": {
+            "value": -16750900,
+            "falpha": 0.0
+          },
+          "name": "Dense Rain Jutsu",
+          "x": 96,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hailjutsu.png",
+          "use1Xscale": false,
+          "name": "hailjutsu.png",
+          "x": 96,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "750 Jutsu Points",
+          "color": {
+            "value": -16764007,
+            "falpha": 0.0
+          },
+          "name": "750 Jutsu Points",
+          "x": 114,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Jutsu Combo: 618",
+          "color": {
+            "value": -16764058,
+            "falpha": 0.0
+          },
+          "name": "Jutsu Combo: 618",
+          "x": 114,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "618",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "618",
+          "x": 96,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "300 Chakra",
+          "color": {
+            "value": -16750951,
+            "falpha": 0.0
+          },
+          "name": "300 Chakra",
+          "x": 123,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Requires: 40 Ninjutsu",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Requires: 40 Ninjutsu",
+          "x": 96,
+          "y": 116
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Learn",
+          "onClick": {
+            "name": "DenseRainBuy"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Learn",
+          "x": 96,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Learnt",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "DenseRainLearntText"
+          },
+          "name": "Learnt",
+          "x": 132,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Page 4",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Page 4",
+          "x": 96,
+          "y": 197
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "onClick": {
+            "name": "OpenWaterPage3Gui"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Back",
+          "x": 267,
+          "y": 188
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Jutsu Points:",
+          "color": {
+            "value": -15973754,
+            "falpha": 0.0
+          },
+          "name": "Jutsu Points:",
+          "x": 96,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:integer:JutsuPoints>",
+          "color": {
+            "value": -16644789,
+            "falpha": 0.0
+          },
+          "name": "<VAR:integer:JutsuPoints>",
+          "x": 168,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Slippery Surface Jutsu",
+          "color": {
+            "value": -16750951,
+            "falpha": 0.0
+          },
+          "name": "Slippery Surface Jutsu",
+          "x": 213,
+          "y": 107
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "waterbulletjutsu.png",
+          "use1Xscale": false,
+          "name": "waterbulletjutsu.png",
+          "x": 213,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "900 Jutsu Points",
+          "color": {
+            "value": -16777012,
+            "falpha": 0.0
+          },
+          "name": "900 Jutsu Points",
+          "x": 231,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Jutsu Combo: 317",
+          "color": {
+            "value": -16764058,
+            "falpha": 0.0
+          },
+          "name": "Jutsu Combo: 317",
+          "x": 231,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "317",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "317",
+          "x": 213,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "170 Chakra",
+          "color": {
+            "value": -16763905,
+            "falpha": 0.0
+          },
+          "name": "170 Chakra",
+          "x": 240,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Requires: 15 Ninjutsu",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Requires: 15 Ninjutsu",
+          "x": 213,
+          "y": 143
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Learn",
+          "onClick": {
+            "name": "SlipperySurfaceBuy"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Learn",
+          "x": 213,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Learnt",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "SlipperySurfaceLearntText"
+          },
+          "name": "Learnt",
+          "x": 249,
+          "y": 152
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next",
+          "onClick": {
+            "name": "OWPG5"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Next",
+          "x": 303,
+          "y": 188
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

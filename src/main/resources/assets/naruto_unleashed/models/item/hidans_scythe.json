@@ -1,0 +1,7 @@
+{
+  "parent": "naruto_unleashed:custom/hidan_scythe",
+  "textures": {
+    "0": "naruto_unleashed:blocks/hidan-curse_mode",
+    "particle": "naruto_unleashed:items/flyingthunderkunai"
+  }
+}

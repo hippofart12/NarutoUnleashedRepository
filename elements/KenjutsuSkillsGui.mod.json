@@ -1,0 +1,151 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "ninjacard2.png",
+          "use1Xscale": false,
+          "name": "ninjacard2.png",
+          "x": 87,
+          "y": 26
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ninjacardtop.png",
+          "use1Xscale": true,
+          "name": "ninjacardtop.png",
+          "x": 87,
+          "y": 8
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Kenjutsu Skill",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Kenjutsu Skill",
+          "x": 96,
+          "y": 35
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "izunams.png",
+          "use1Xscale": true,
+          "name": "izunams.png",
+          "x": 96,
+          "y": 143
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "onClick": {
+            "name": "OpenIMSGui"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "Back",
+          "x": 294,
+          "y": 188
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "uchiha.png",
+          "use1Xscale": false,
+          "name": "uchiha.png",
+          "x": 312,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Requirements",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Requirements",
+          "x": 96,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Requires: Izuna Mangekyo Sharingan ON",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Requires: Izuna Mangekyo Sharingan ON",
+          "x": 96,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "With Sword In Hand, Strength and Speed Boost",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "With Sword In Hand, Strength and Speed Boost",
+          "x": 96,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "izunams.png",
+          "use1Xscale": true,
+          "name": "izunams.png",
+          "x": 177,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Always Active",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Always Active",
+          "x": 96,
+          "y": 89
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

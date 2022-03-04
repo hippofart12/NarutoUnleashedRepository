@@ -1,0 +1,61 @@
+{
+  "_fv": 24,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": false,
+    "textureHelmet": "",
+    "enableBody": true,
+    "textureBody": "madarasusanooskeletal",
+    "enableLeggings": false,
+    "textureLeggings": "",
+    "enableBoots": false,
+    "textureBoots": "",
+    "onBodyTick": {
+      "name": "MSSTick"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:NarutoUnleashedTab"
+    },
+    "armorTextureFile": "mangekyo_sharingan_Izuna__",
+    "helmetName": "Sasuke Susanoo Cage Helmet",
+    "bodyName": "Madara Susanoo Skeletal",
+    "leggingsName": "Sasuke Susanoo Cage Leggings",
+    "bootsName": "Sasuke Susanoo Cage Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Models_madara2",
+    "bodyModelPart": "bone",
+    "armsModelPartL": "bone3",
+    "armsModelPartR": "bone3",
+    "bodyModelTexture": "s_madara2.png",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 1000,
+    "damageValueHelmet": 2,
+    "damageValueBody": 45,
+    "damageValueLeggings": 5,
+    "damageValueBoots": 2,
+    "enchantability": 0,
+    "toughness": 6.0,
+    "knockbackResistance": 2.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": []
+  }
+}

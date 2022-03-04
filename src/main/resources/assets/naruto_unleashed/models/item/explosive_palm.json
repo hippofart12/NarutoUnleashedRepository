@@ -1,0 +1,7 @@
+{
+  "parent": "naruto_unleashed:custom/explosive_fist",
+  "textures": {
+    "0": "naruto_unleashed:blocks/tnt_side",
+    "particle": "naruto_unleashed:items/explosion_release"
+  }
+}

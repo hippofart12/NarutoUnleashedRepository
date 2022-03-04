@@ -1,0 +1,295 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "ninjacard2.png",
+          "use1Xscale": false,
+          "name": "ninjacard2.png",
+          "x": 87,
+          "y": 26
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ninjacardtop.png",
+          "use1Xscale": true,
+          "name": "ninjacardtop.png",
+          "x": 87,
+          "y": 8
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Level Up Points",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Level Up Points",
+          "x": 96,
+          "y": 35
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "onClick": {
+            "name": "NinjaStatGuiKeyBindOnKeyPressed"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Back",
+          "x": 303,
+          "y": 188
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Points Remaining:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Points Remaining:",
+          "x": 96,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:integer:PlayerXPLevelUp>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "<VAR:integer:PlayerXPLevelUp>",
+          "x": 180,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Chakra Release Papers",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Chakra Release Papers",
+          "x": 96,
+          "y": 179
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Requires 5 points",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Requires 5 points",
+          "x": 96,
+          "y": 188
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Buy",
+          "onClick": {
+            "name": "ChakraPaperBUY"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "Buy",
+          "x": 213,
+          "y": 179
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Speed Up",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Speed Up",
+          "x": 96,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "requires 1 Points",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "requires 1 Points",
+          "x": 96,
+          "y": 80
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Buy",
+          "onClick": {
+            "name": "SpeedUPBuY"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "Buy",
+          "x": 213,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Strength Up",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Strength Up",
+          "x": 96,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Requires 1 Points",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Requires 1 Points",
+          "x": 96,
+          "y": 107
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Buy",
+          "onClick": {
+            "name": "StrengthUPBuy"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "Buy",
+          "x": 213,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Resistance Up",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Resistance Up",
+          "x": 96,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Requires 2 Points",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Requires 2 Points",
+          "x": 96,
+          "y": 134
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Buy",
+          "onClick": {
+            "name": "ResistenceUpBuy"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "Buy",
+          "x": 213,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Health Up",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Health Up",
+          "x": 96,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Required 1 Point",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Required 1 Point",
+          "x": 96,
+          "y": 161
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Buy",
+          "onClick": {
+            "name": "HealthUpBuy"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "Buy",
+          "x": 213,
+          "y": 152
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

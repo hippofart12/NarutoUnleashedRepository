@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "naruto_unleashed:explosive_tag_block"
+    },
+    {
+      "item": "naruto_unleashed:kunai"
+    }
+  ],
+  "result": {
+    "item": "naruto_unleashed:explosive_kunai",
+    "count": 1
+  }
+}

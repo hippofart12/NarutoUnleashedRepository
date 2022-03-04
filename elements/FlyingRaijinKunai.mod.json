@@ -1,0 +1,53 @@
+{
+  "_fv": 24,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "minatokunai",
+    "customModelName": "Normal",
+    "name": "Flying Raijin Kunai",
+    "specialInfo": [
+      "Requires 50 Shurikenjutsu",
+      "Throw Cost: 50 Chakra",
+      "Marking Cost: 100 Chakra"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:NarutoUnleashedTab"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 0,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "onRangedItemUsed": {
+      "name": "FlyingRaijinKunaiRangedItemUsed"
+    },
+    "onEntitySwing": {
+      "name": "FlyingRaijinKunaiEntitySwingsItem"
+    },
+    "useCondition": {
+      "name": "FlyingRaijinKunaiCanUseRangedItem"
+    },
+    "bulletPower": 1.4000000000000001,
+    "bulletDamage": 12.0,
+    "bulletKnockback": 0,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "Blocks.AIR"
+    },
+    "bulletModel": "ModelFlyingRaijinKunai",
+    "customBulletModelTexture": "flyingraijinkunai.png",
+    "onBulletHitsBlock": {
+      "name": "FlyingRaijinKunaiBulletHitsBlock"
+    }
+  }
+}

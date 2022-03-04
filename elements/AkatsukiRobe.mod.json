@@ -1,0 +1,60 @@
+{
+  "_fv": 24,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": false,
+    "textureHelmet": "",
+    "enableBody": true,
+    "textureBody": "akatchest",
+    "enableLeggings": false,
+    "textureLeggings": "",
+    "enableBoots": false,
+    "textureBoots": "",
+    "creativeTab": {
+      "value": "CUSTOM:NarutoUnleashedTab"
+    },
+    "armorTextureFile": "akatsuki_robe_layer_1",
+    "helmetName": "Akatsuki Robe Helmet",
+    "bodyName": "Akatsuki Robe",
+    "leggingsName": "Akatsuki Robe Leggings",
+    "bootsName": "Akatsuki Robe Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [
+      "Black"
+    ],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Modelakatsuki",
+    "bodyModelPart": "body",
+    "armsModelPartL": "leftArm",
+    "armsModelPartR": "rightArm",
+    "bodyModelTexture": "r9.png",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 50,
+    "damageValueHelmet": 0,
+    "damageValueBody": 10,
+    "damageValueLeggings": 0,
+    "damageValueBoots": 0,
+    "enchantability": 8,
+    "toughness": 1.7000000000000002,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": []
+  }
+}

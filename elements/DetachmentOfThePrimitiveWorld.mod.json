@@ -1,0 +1,49 @@
+{
+  "_fv": 24,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "dust_release",
+    "customModelName": "Normal",
+    "name": "Detachment Of The Primitive World",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:NarutoUnleashedTab"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 100,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 1.7000000000000002,
+    "bulletDamage": 30.0,
+    "bulletKnockback": 0,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "Blocks.AIR"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "DOTPWHitsBlock"
+    },
+    "onBulletHitsPlayer": {
+      "name": "DetachmentOfThePrimitiveWorldBulletHitsBlock"
+    },
+    "onBulletHitsEntity": {
+      "name": "DetachmentOfThePrimitiveWorldBulletHitsBlock"
+    },
+    "onBulletFlyingTick": {
+      "name": "DetachmentOfThePrimitiveWorldWhileBulletFlyingTick"
+    }
+  }
+}

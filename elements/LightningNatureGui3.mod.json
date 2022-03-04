@@ -1,0 +1,381 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "ninjacard2.png",
+          "use1Xscale": false,
+          "name": "ninjacard2.png",
+          "x": 87,
+          "y": 26
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ninjacardtop.png",
+          "use1Xscale": true,
+          "name": "ninjacardtop.png",
+          "x": 87,
+          "y": 8
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Lightning Nature",
+          "color": {
+            "value": -3355648,
+            "falpha": 0.0
+          },
+          "name": "Lightning Nature",
+          "x": 96,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Jutsu",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Jutsu",
+          "x": 96,
+          "y": 62
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lightning_release.png",
+          "use1Xscale": false,
+          "name": "lightning_release.png",
+          "x": 267,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Kirin Jutsu",
+          "color": {
+            "value": -1316087,
+            "falpha": 0.0
+          },
+          "name": "Kirin Jutsu",
+          "x": 96,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "thunderjutsu.png",
+          "use1Xscale": false,
+          "name": "thunderjutsu.png",
+          "x": 96,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1800 Jutsu Points",
+          "color": {
+            "value": -530389,
+            "falpha": 0.0
+          },
+          "name": "1800 Jutsu Points",
+          "x": 114,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Jutsu Combo: 306",
+          "color": {
+            "value": -393472,
+            "falpha": 0.0
+          },
+          "name": "Jutsu Combo: 306",
+          "x": 114,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "306",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "306",
+          "x": 96,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "850 Chakra",
+          "color": {
+            "value": -2898122,
+            "falpha": 0.0
+          },
+          "name": "850 Chakra",
+          "x": 123,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Requires: 110 Ninjutsu",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Requires: 110 Ninjutsu",
+          "x": 96,
+          "y": 116
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Learn",
+          "onClick": {
+            "name": "KirinBuy"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Learn",
+          "x": 96,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Learnt",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "KirinLearntText"
+          },
+          "name": "Learnt",
+          "x": 132,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Page 3",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Page 3",
+          "x": 96,
+          "y": 197
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "onClick": {
+            "name": "LightningPage2Open"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Back",
+          "x": 267,
+          "y": 188
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Electic Jolt Jutsu",
+          "color": {
+            "value": -11776,
+            "falpha": 0.0
+          },
+          "name": "Electic Jolt Jutsu",
+          "x": 213,
+          "y": 107
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lightningballjutsu.png",
+          "use1Xscale": false,
+          "name": "lightningballjutsu.png",
+          "x": 213,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "85 Jutsu Points",
+          "color": {
+            "value": -3425268,
+            "falpha": 0.0
+          },
+          "name": "85 Jutsu Points",
+          "x": 231,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Jutsu Combo: 27",
+          "color": {
+            "value": -2040282,
+            "falpha": 0.0
+          },
+          "name": "Jutsu Combo: 27",
+          "x": 231,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "27",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "27",
+          "x": 213,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "40 Chakra",
+          "color": {
+            "value": -2508284,
+            "falpha": 0.0
+          },
+          "name": "40 Chakra",
+          "x": 240,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Requires: 4 Ninjutsu",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Requires: 4 Ninjutsu",
+          "x": 213,
+          "y": 143
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Learn",
+          "onClick": {
+            "name": "ElecticJoltBuy"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Learn",
+          "x": 213,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Learnt",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "ElectricJoltLearntText"
+          },
+          "name": "Learnt",
+          "x": 249,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Jutsu Points:",
+          "color": {
+            "value": -1517549,
+            "falpha": 0.0
+          },
+          "name": "Jutsu Points:",
+          "x": 96,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:integer:JutsuPoints>",
+          "color": {
+            "value": -4939254,
+            "falpha": 0.0
+          },
+          "name": "<VAR:integer:JutsuPoints>",
+          "x": 159,
+          "y": 53
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next",
+          "onClick": {
+            "name": "OLNP4"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Next",
+          "x": 303,
+          "y": 188
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

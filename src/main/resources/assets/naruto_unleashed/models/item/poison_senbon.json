@@ -1,0 +1,7 @@
+{
+  "parent": "naruto_unleashed:custom/senbon",
+  "textures": {
+    "0": "naruto_unleashed:blocks/iron_block",
+    "particle": "naruto_unleashed:items/senbon"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:red_concrete"
+    },
+    "2": {
+      "item": "minecraft:red_concrete"
+    },
+    "3": {
+      "item": "minecraft:red_dye"
+    },
+    "4": {
+      "item": "minecraft:iron_block"
+    },
+    "5": {
+      "item": "minecraft:red_dye"
+    },
+    "7": {
+      "item": "minecraft:red_concrete"
+    }
+  },
+  "result": {
+    "item": "naruto_unleashed:senju_armor_chestplate",
+    "count": 1
+  }
+}

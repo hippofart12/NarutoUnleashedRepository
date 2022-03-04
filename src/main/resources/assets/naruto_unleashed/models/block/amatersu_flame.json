@@ -1,0 +1,7 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "naruto_unleashed:blocks/amaterasufire",
+    "particle": "naruto_unleashed:blocks/amaterasufire"
+  }
+}

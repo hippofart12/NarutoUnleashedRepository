@@ -1,0 +1,21 @@
+{
+  "_fv": 24,
+  "_type": "particle",
+  "definition": {
+    "texture": "dark_particle.png",
+    "animate": false,
+    "frameDuration": 1,
+    "width": 0.30000000000000004,
+    "height": 0.30000000000000004,
+    "scale": 1.1,
+    "speedFactor": 0.0,
+    "gravity": 0.0,
+    "maxAge": 7,
+    "maxAgeDiff": 3,
+    "angularVelocity": 8.0,
+    "angularAcceleration": 0.35000000000000003,
+    "canCollide": false,
+    "alwaysShow": true,
+    "renderType": "TRANSLUCENT"
+  }
+}

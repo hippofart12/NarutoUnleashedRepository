@@ -1,0 +1,381 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "ninjacard2.png",
+          "use1Xscale": false,
+          "name": "ninjacard2.png",
+          "x": 87,
+          "y": 26
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ninjacardtop.png",
+          "use1Xscale": true,
+          "name": "ninjacardtop.png",
+          "x": 87,
+          "y": 8
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Fire Nature",
+          "color": {
+            "value": -6750208,
+            "falpha": 0.0
+          },
+          "name": "Fire Nature",
+          "x": 96,
+          "y": 35
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fire_release.png",
+          "use1Xscale": false,
+          "name": "fire_release.png",
+          "x": 267,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Jutsu",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Jutsu",
+          "x": 96,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Burning Ash Cloud Jutsu",
+          "color": {
+            "value": -3407872,
+            "falpha": 0.0
+          },
+          "name": "Burning Ash Cloud Jutsu",
+          "x": 96,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "firechakrabomb.png",
+          "use1Xscale": false,
+          "name": "firechakrabomb.png",
+          "x": 96,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Page 7",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Page 7",
+          "x": 96,
+          "y": 197
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1350 Jutsu Points",
+          "color": {
+            "value": -3394816,
+            "falpha": 0.0
+          },
+          "name": "1350 Jutsu Points",
+          "x": 114,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Jutsu Combo: 64",
+          "color": {
+            "value": -26368,
+            "falpha": 0.0
+          },
+          "name": "Jutsu Combo: 64",
+          "x": 114,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "64",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "64",
+          "x": 96,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "450 Chakra",
+          "color": {
+            "value": -3381760,
+            "falpha": 0.0
+          },
+          "name": "450 Chakra",
+          "x": 123,
+          "y": 107
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Learn",
+          "onClick": {
+            "name": "BurningAshCloudBuy"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Learn",
+          "x": 96,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Learnt",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "BurningAshCloudLearntText"
+          },
+          "name": "Learnt",
+          "x": 132,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Requires: Ninjutsu 85",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Requires: Ninjutsu 85",
+          "x": 96,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Jutsu Points:",
+          "color": {
+            "value": -7536126,
+            "falpha": 0.0
+          },
+          "name": "Jutsu Points:",
+          "x": 96,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:integer:JutsuPoints>",
+          "color": {
+            "value": -10092287,
+            "falpha": 0.0
+          },
+          "name": "<VAR:integer:JutsuPoints>",
+          "x": 168,
+          "y": 53
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "onClick": {
+            "name": "OpenFireNature6Gui"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Back",
+          "x": 267,
+          "y": 188
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Blazing Red Cannon Jutsu",
+          "color": {
+            "value": -10092544,
+            "falpha": 0.0
+          },
+          "name": "Blazing Red Cannon Jutsu",
+          "x": 213,
+          "y": 107
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fireshuriken.png",
+          "use1Xscale": false,
+          "name": "fireshuriken.png",
+          "x": 213,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "50 Jutsu Points",
+          "color": {
+            "value": -3407872,
+            "falpha": 0.0
+          },
+          "name": "50 Jutsu Points",
+          "x": 231,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Jutsu Combo: 567",
+          "color": {
+            "value": -39424,
+            "falpha": 0.0
+          },
+          "name": "Jutsu Combo: 567",
+          "x": 231,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "567",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "567",
+          "x": 213,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "15 Chakra",
+          "color": {
+            "value": -52480,
+            "falpha": 0.0
+          },
+          "name": "15 Chakra",
+          "x": 240,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Requires: 4 Ninjutsu",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Requires: 4 Ninjutsu",
+          "x": 213,
+          "y": 143
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Learn",
+          "onClick": {
+            "name": "BlazingRedCannonBuy"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Learn",
+          "x": 213,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Learnt",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "BlazingRedCannonLearntText"
+          },
+          "name": "Learnt",
+          "x": 249,
+          "y": 152
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next",
+          "onClick": {
+            "name": "OFNG8"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Next",
+          "x": 303,
+          "y": 188
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

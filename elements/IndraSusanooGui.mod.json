@@ -1,0 +1,306 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "ninjacard2.png",
+          "use1Xscale": false,
+          "name": "ninjacard2.png",
+          "x": 87,
+          "y": 26
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ninjacardtop.png",
+          "use1Xscale": true,
+          "name": "ninjacardtop.png",
+          "x": 87,
+          "y": 8
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Indra Susanoo",
+          "color": {
+            "value": -10092442,
+            "falpha": 0.0
+          },
+          "name": "Indra Susanoo",
+          "x": 96,
+          "y": 35
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "indrams.png",
+          "use1Xscale": true,
+          "name": "indrams.png",
+          "x": 96,
+          "y": 143
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "onClick": {
+            "name": "OpenIndraMSGui"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "Back",
+          "x": 294,
+          "y": 188
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "uchiha.png",
+          "use1Xscale": false,
+          "name": "uchiha.png",
+          "x": 312,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Requirements",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Requirements",
+          "x": 96,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Requires: Indra Mangekyo Sharingan ON,",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Requires: Indra Mangekyo Sharingan ON,",
+          "x": 96,
+          "y": 62
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "indrams.png",
+          "use1Xscale": true,
+          "name": "indrams.png",
+          "x": 204,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Susanoo Cage",
+          "color": {
+            "value": -10092442,
+            "falpha": 0.0
+          },
+          "name": "Susanoo Cage",
+          "x": 96,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "5000 Jutsu Points",
+          "color": {
+            "value": -10092442,
+            "falpha": 0.0
+          },
+          "name": "5000 Jutsu Points",
+          "x": 96,
+          "y": 98
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Learn",
+          "onClick": {
+            "name": "IndraSusanooCageBuy"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Learn",
+          "x": 186,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Susanoo Skeletal",
+          "color": {
+            "value": -10092442,
+            "falpha": 0.0
+          },
+          "name": "Susanoo Skeletal",
+          "x": 96,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "7500 Jutsu Points",
+          "color": {
+            "value": -10092442,
+            "falpha": 0.0
+          },
+          "name": "7500 Jutsu Points",
+          "x": 96,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Previous Susanoo Form",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Previous Susanoo Form",
+          "x": 96,
+          "y": 71
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Learn",
+          "onClick": {
+            "name": "IndraSusanooSkeletalBuy"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Learn",
+          "x": 186,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Learnt",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "IndraSusanooCageLearntText"
+          },
+          "name": "Learnt",
+          "x": 222,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Learnt",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "IndraSusanooSkeletalLearntText"
+          },
+          "name": "Learnt",
+          "x": 222,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Susanoo Armored",
+          "color": {
+            "value": -10092442,
+            "falpha": 0.0
+          },
+          "name": "Susanoo Armored",
+          "x": 258,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "15000 Jutsu Points",
+          "color": {
+            "value": -10092442,
+            "falpha": 0.0
+          },
+          "name": "15000 Jutsu Points",
+          "x": 249,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Learnt",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "IndraSusanooArmoredLearntText"
+          },
+          "name": "Learnt",
+          "x": 303,
+          "y": 107
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Learn",
+          "onClick": {
+            "name": "IndraSusanooArmoredBuy"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Learn",
+          "x": 267,
+          "y": 107
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

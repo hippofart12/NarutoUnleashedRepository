@@ -1,0 +1,21 @@
+{
+  "_fv": 24,
+  "_type": "particle",
+  "definition": {
+    "texture": "kamui_particle.png",
+    "animate": false,
+    "frameDuration": 1,
+    "width": 0.7,
+    "height": 0.7,
+    "scale": 10.0,
+    "speedFactor": 0.0,
+    "gravity": 0.0,
+    "maxAge": 10,
+    "maxAgeDiff": 0,
+    "angularVelocity": 0.1,
+    "angularAcceleration": 0.0,
+    "canCollide": true,
+    "alwaysShow": true,
+    "renderType": "TRANSLUCENT"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "naruto_unleashed:custom/ice_breaking_fist",
+  "textures": {
+    "0": "naruto_unleashed:blocks/blue_ice",
+    "particle": "naruto_unleashed:items/ice_release"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "_fv": 24,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "I",
+    "keyBindingName": "Infuse Chakra",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "InfuseChakraOnKeyPressed"
+    },
+    "onKeyReleased": {
+      "name": "InfuseChakraOnKeyReleased"
+    }
+  }
+}

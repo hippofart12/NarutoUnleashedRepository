@@ -1,0 +1,21 @@
+{
+  "_fv": 24,
+  "_type": "particle",
+  "definition": {
+    "texture": "dust_release_particle.png",
+    "animate": false,
+    "frameDuration": 1,
+    "width": 0.1,
+    "height": 0.1,
+    "scale": 0.5,
+    "speedFactor": 0.0,
+    "gravity": 0.0,
+    "maxAge": 3,
+    "maxAgeDiff": 3,
+    "angularVelocity": 1.0,
+    "angularAcceleration": 0.25,
+    "canCollide": true,
+    "alwaysShow": true,
+    "renderType": "OPAQUE"
+  }
+}

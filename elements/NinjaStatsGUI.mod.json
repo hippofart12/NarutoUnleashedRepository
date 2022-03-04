@@ -1,0 +1,1097 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "ninjacard2.png",
+          "use1Xscale": false,
+          "name": "ninjacard2.png",
+          "x": 87,
+          "y": 26
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ninjacardtop.png",
+          "use1Xscale": true,
+          "name": "ninjacardtop.png",
+          "x": 87,
+          "y": 8
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Ninja Stats",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Ninja Stats",
+          "x": 195,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Max Chakra:",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Max Chakra:",
+          "x": 105,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:integer:ChakraMax>",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "<VAR:integer:ChakraMax>",
+          "x": 165,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Shurikenjutsu:",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Shurikenjutsu:",
+          "x": 105,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:integer:Shurikenjutsu>",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "<VAR:integer:Shurikenjutsu>",
+          "x": 178,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Ninjutsu:",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Ninjutsu:",
+          "x": 105,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Taijutsu:",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Taijutsu:",
+          "x": 105,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Genjutsu:",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Genjutsu:",
+          "x": 105,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Bukijutsu:",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Bukijutsu:",
+          "x": 105,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Kenjutsu:",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Kenjutsu:",
+          "x": 105,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Hiden:",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Hiden:",
+          "x": 105,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Kinjutsu:",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Kinjutsu:",
+          "x": 105,
+          "y": 116
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bukijutsuscroll.png",
+          "use1Xscale": true,
+          "name": "bukijutsuscroll.png",
+          "x": 96,
+          "y": 89
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "genjutsuscroll.png",
+          "use1Xscale": true,
+          "name": "genjutsuscroll.png",
+          "x": 96,
+          "y": 62
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hidenscroll.png",
+          "use1Xscale": true,
+          "name": "hidenscroll.png",
+          "x": 96,
+          "y": 107
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "shurikenjutsuscroll.png",
+          "use1Xscale": true,
+          "name": "shurikenjutsuscroll.png",
+          "x": 96,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "taijutsuscroll.png",
+          "use1Xscale": true,
+          "name": "taijutsuscroll.png",
+          "x": 96,
+          "y": 53
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "kenjutsuscroll.png",
+          "use1Xscale": true,
+          "name": "kenjutsuscroll.png",
+          "x": 96,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "scroll_-_stat_points.png",
+          "use1Xscale": true,
+          "name": "scroll_-_stat_points.png",
+          "x": 96,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ninjutsuscroll.png",
+          "use1Xscale": true,
+          "name": "ninjutsuscroll.png",
+          "x": 96,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "kinjutsuscroll.png",
+          "use1Xscale": true,
+          "name": "kinjutsuscroll.png",
+          "x": 96,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Medicaljutsu:",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Medicaljutsu:",
+          "x": 105,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Nintaijutsu:",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Nintaijutsu:",
+          "x": 105,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Senjutsu:",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Senjutsu:",
+          "x": 105,
+          "y": 143
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "medicaljutsuscroll.png",
+          "use1Xscale": true,
+          "name": "medicaljutsuscroll.png",
+          "x": 96,
+          "y": 125
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "nintaijutsuscroll.png",
+          "use1Xscale": true,
+          "name": "nintaijutsuscroll.png",
+          "x": 96,
+          "y": 134
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "senjutsuscroll.png",
+          "use1Xscale": true,
+          "name": "senjutsuscroll.png",
+          "x": 96,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:integer:Ninjutsu>",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "<VAR:integer:Ninjutsu>",
+          "x": 150,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:integer:Taijutsu>",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "<VAR:integer:Taijutsu>",
+          "x": 150,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:integer:Genjutsu>",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "<VAR:integer:Genjutsu>",
+          "x": 155,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:integer:Bukijutsu>",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "<VAR:integer:Bukijutsu>",
+          "x": 158,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:integer:Kenjutsu>",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "<VAR:integer:Kenjutsu>",
+          "x": 155,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:integer:hiden>",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "<VAR:integer:hiden>",
+          "x": 135,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:integer:medical>",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "<VAR:integer:medical>",
+          "x": 173,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:integer:Kinjutsu>",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "<VAR:integer:Kinjutsu>",
+          "x": 153,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:integer:Nintaijutsu>",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "<VAR:integer:Nintaijutsu>",
+          "x": 166,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:integer:Senjutsu>",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "<VAR:integer:Senjutsu>",
+          "x": 150,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Clan:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Clan:",
+          "x": 240,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "None",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "NoClanText"
+          },
+          "name": "None",
+          "x": 267,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Affiliation:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Affiliation:",
+          "x": 240,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "None",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "NoClanText"
+          },
+          "name": "None",
+          "x": 303,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Uchiha",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "Uchihajoinedtext"
+          },
+          "name": "Uchiha",
+          "x": 267,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Chakra Releases",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Chakra Releases",
+          "x": 240,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fire.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "FireReleaseUnlocked"
+          },
+          "name": "fire.png",
+          "x": 240,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "water.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "WaterReleaseUnlocked"
+          },
+          "name": "water.png",
+          "x": 267,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "wind.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "WindReleaseUnlocked"
+          },
+          "name": "wind.png",
+          "x": 294,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lightning.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "LightningReleaseUnlocked"
+          },
+          "name": "lightning.png",
+          "x": 240,
+          "y": 107
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "earth.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "EarthReleaseUnlocked"
+          },
+          "name": "earth.png",
+          "x": 267,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Level:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Level:",
+          "x": 96,
+          "y": 161
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:integer:PlayerLevel>",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "<VAR:integer:PlayerLevel>",
+          "x": 132,
+          "y": 161
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "level_bar_16.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "PLB16"
+          },
+          "name": "level_bar_16.png",
+          "x": 96,
+          "y": 170
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "level_bar_15.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "PLB15"
+          },
+          "name": "level_bar_15.png",
+          "x": 96,
+          "y": 170
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "level_bar_14.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "PLB14"
+          },
+          "name": "level_bar_14.png",
+          "x": 96,
+          "y": 170
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "level_bar_13.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "PLB13"
+          },
+          "name": "level_bar_13.png",
+          "x": 96,
+          "y": 170
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "level_bar_12.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "PLB12"
+          },
+          "name": "level_bar_12.png",
+          "x": 96,
+          "y": 170
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "level_bar_11.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "PLB11"
+          },
+          "name": "level_bar_11.png",
+          "x": 96,
+          "y": 170
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "level_bar_10.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "PLB10"
+          },
+          "name": "level_bar_10.png",
+          "x": 96,
+          "y": 170
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "level_bar_9.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "PLB9"
+          },
+          "name": "level_bar_9.png",
+          "x": 96,
+          "y": 170
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "level_bar_8.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "PLB8"
+          },
+          "name": "level_bar_8.png",
+          "x": 96,
+          "y": 170
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "level_bar_7.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "PLB7"
+          },
+          "name": "level_bar_7.png",
+          "x": 96,
+          "y": 170
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "level_bar_6.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "PLB6"
+          },
+          "name": "level_bar_6.png",
+          "x": 96,
+          "y": 170
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "level_bar_5.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "PLB5"
+          },
+          "name": "level_bar_5.png",
+          "x": 96,
+          "y": 170
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "level_bar_4.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "PLB4"
+          },
+          "name": "level_bar_4.png",
+          "x": 96,
+          "y": 170
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "level_bar_3.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "PLB3"
+          },
+          "name": "level_bar_3.png",
+          "x": 96,
+          "y": 170
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "level_bar_2.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "PLB2"
+          },
+          "name": "level_bar_2.png",
+          "x": 96,
+          "y": 170
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "level_bar_1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "PLB1"
+          },
+          "name": "level_bar_1.png",
+          "x": 96,
+          "y": 170
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "level_bar_empty.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "PLB1"
+          },
+          "name": "level_bar_empty.png",
+          "x": 96,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Level Up Points",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Level Up Points",
+          "x": 240,
+          "y": 161
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Go",
+          "onClick": {
+            "name": "LevelUpPointsOpen"
+          },
+          "width": 35,
+          "height": 20,
+          "name": "Go",
+          "x": 258,
+          "y": 170
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "yin_release.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "YinReleaseUnlock"
+          },
+          "name": "yin_release.png",
+          "x": 294,
+          "y": 107
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "yang_release.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "YangReleaseUnlocked"
+          },
+          "name": "yang_release.png",
+          "x": 240,
+          "y": 134
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "yin-yang_release.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "YinYangReleaseUnlocked"
+          },
+          "name": "yin-yang_release.png",
+          "x": 276,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Rank:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Rank:",
+          "x": 240,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Genin",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "GeninText"
+          },
+          "name": "Genin",
+          "x": 267,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Academy Student",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "AcademyStudentText"
+          },
+          "name": "Academy Student",
+          "x": 267,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Chuunin",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "ChuuninText"
+          },
+          "name": "Chuunin",
+          "x": 267,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Jounin",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "JouninText"
+          },
+          "name": "Jounin",
+          "x": 267,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Kage",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "KageText"
+          },
+          "name": "Kage",
+          "x": 267,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Uzumaki",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "UzumakiClanTextOn"
+          },
+          "name": "Uzumaki",
+          "x": 267,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "summoningscroll.png",
+          "use1Xscale": true,
+          "name": "summoningscroll.png",
+          "x": 96,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Summoning:",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Summoning:",
+          "x": 105,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:integer:Summoning>",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "<VAR:integer:Summoning>",
+          "x": 159,
+          "y": 152
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "fire_release",
+    "customModelName": "Normal",
+    "name": "Grand Fire Ball",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:NarutoUnleashedTab"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 100,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 1.3,
+    "bulletDamage": 75.0,
+    "bulletKnockback": 7,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": ""
+    },
+    "bulletModel": "Modelgrandfireball",
+    "customBulletModelTexture": "fireball1.png",
+    "onBulletHitsBlock": {
+      "name": "GrandFireBallBulletHitsBlock"
+    },
+    "onBulletHitsPlayer": {
+      "name": "GrandFireBallBulletHitsBlock"
+    },
+    "onBulletHitsEntity": {
+      "name": "GrandFireBallBulletHitsBlock"
+    }
+  }
+}

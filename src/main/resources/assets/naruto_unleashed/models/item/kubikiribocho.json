@@ -1,0 +1,10 @@
+{
+  "parent": "naruto_unleashed:custom/zs_(1)",
+  "textures": {
+    "0": "naruto_unleashed:blocks/ks1",
+    "1": "naruto_unleashed:blocks/kubikiribocho_-_copy",
+    "3": "naruto_unleashed:blocks/kubikiribocho_-_copy_2",
+    "4": "naruto_unleashed:blocks/kubikiribocho_-_copy_3",
+    "particle": "naruto_unleashed:items/kubikiribocho"
+  }
+}

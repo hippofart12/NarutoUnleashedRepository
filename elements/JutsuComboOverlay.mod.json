@@ -1,0 +1,44 @@
+{
+  "_fv": 24,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Jutsu Combo:",
+          "color": {
+            "value": -13434778,
+            "falpha": 0.0
+          },
+          "name": "Jutsu Combo:",
+          "x": 6,
+          "y": 206
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:JutsuCombo>",
+          "color": {
+            "value": -10092340,
+            "falpha": 0.0
+          },
+          "name": "<VAR:JutsuCombo>",
+          "x": 6,
+          "y": 215
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

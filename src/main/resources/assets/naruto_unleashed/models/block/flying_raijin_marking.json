@@ -1,0 +1,8 @@
+{
+  "parent": "naruto_unleashed:custom/flying_raijin_marking",
+  "textures": {
+    "all": "naruto_unleashed:blocks/flying_raijin_marking",
+    "particle": "naruto_unleashed:blocks/flying_raijin_marking",
+    "0": "naruto_unleashed:blocks/flying_raijin_marking"
+  }
+}

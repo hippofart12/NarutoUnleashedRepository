@@ -1,0 +1,49 @@
+{
+  "_fv": 24,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "fire_release",
+    "customModelName": "Normal",
+    "name": "Fireball",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:NarutoUnleashedTab"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "Blocks.LAVA"
+    },
+    "shootConstantly": false,
+    "usageCount": 100,
+    "actionSound": {
+      "value": "block.lava.pop"
+    },
+    "hasGlow": false,
+    "animation": "none",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 1.7000000000000002,
+    "bulletDamage": 15.0,
+    "bulletKnockback": 3,
+    "bulletParticles": false,
+    "bulletIgnitesFire": true,
+    "bulletItemTexture": {
+      "value": ""
+    },
+    "bulletModel": "Modelfireball",
+    "customBulletModelTexture": "fireball1.png",
+    "onBulletHitsBlock": {
+      "name": "FireballBulletHitsBlock"
+    },
+    "onBulletHitsPlayer": {
+      "name": "FireballBulletHitsBlock"
+    },
+    "onBulletHitsEntity": {
+      "name": "FireballBulletHitsBlock"
+    },
+    "onBulletFlyingTick": {
+      "name": "FireballWhileBulletFlyingTick"
+    }
+  }
+}

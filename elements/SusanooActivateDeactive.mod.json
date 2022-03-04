@@ -1,0 +1,12 @@
+{
+  "_fv": 24,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "P",
+    "keyBindingName": "Susanoo Activate Deactive",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "SusanooActivateDeactiveOnKeyPressed"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "flamesword",
+    "customModelName": "flame_sword:default",
+    "name": "Flame Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:NarutoUnleashedTab"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 0,
+    "efficiency": 0.0,
+    "attackSpeed": 2.4,
+    "enchantability": 0,
+    "damageVsEntity": 26.0,
+    "usageCount": 12,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "FlameSwordLivingEntityIsHitWithTool"
+    },
+    "onItemInInventoryTick": {
+      "name": "FlameSwordToolInInventoryTick"
+    }
+  }
+}

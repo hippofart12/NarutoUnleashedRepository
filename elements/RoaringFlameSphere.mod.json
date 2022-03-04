@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "fire_release",
+    "customModelName": "Normal",
+    "name": "Roaring Flame Sphere",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:NarutoUnleashedTab"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 100,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 1.6,
+    "bulletDamage": 100.0,
+    "bulletKnockback": 14,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": ""
+    },
+    "bulletModel": "ModelRFS",
+    "customBulletModelTexture": "fireball1.png",
+    "onBulletHitsBlock": {
+      "name": "RoaringFlameSphereBulletHitsBlock"
+    },
+    "onBulletHitsPlayer": {
+      "name": "RoaringFlameSphereBulletHitsBlock"
+    },
+    "onBulletHitsEntity": {
+      "name": "RoaringFlameSphereBulletHitsBlock"
+    }
+  }
+}

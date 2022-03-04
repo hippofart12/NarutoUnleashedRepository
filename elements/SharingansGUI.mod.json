@@ -1,0 +1,261 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "ninjacard2.png",
+          "use1Xscale": false,
+          "name": "ninjacard2.png",
+          "x": 87,
+          "y": 26
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ninjacardtop.png",
+          "use1Xscale": true,
+          "name": "ninjacardtop.png",
+          "x": 87,
+          "y": 8
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Sharingans",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": "Sharingans",
+          "x": 96,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1 Tomoe",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": "1 Tomoe",
+          "x": 96,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "2 Tomoe",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": "2 Tomoe",
+          "x": 159,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "3 Tomoe",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": "3 Tomoe",
+          "x": 222,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Mangekyos",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Mangekyos",
+          "x": 96,
+          "y": 116
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Go",
+          "onClick": {
+            "name": "OpenMangekyoSharingansGUI"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Go",
+          "x": 96,
+          "y": 134
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "uchiha.png",
+          "use1Xscale": false,
+          "name": "uchiha.png",
+          "x": 312,
+          "y": 35
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Go",
+          "onClick": {
+            "name": "OpenSharingan1TomoeGUI"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Go",
+          "x": 96,
+          "y": 80
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Go",
+          "onClick": {
+            "name": "OpenSharingan2Tomoe"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Go",
+          "x": 159,
+          "y": 80
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Go",
+          "onClick": {
+            "name": "OpenSharingan3TomoeGui"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Go",
+          "x": 222,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Rinnegan",
+          "color": {
+            "value": -6750208,
+            "falpha": 0.0
+          },
+          "name": "Rinnegan",
+          "x": 177,
+          "y": 116
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Go",
+          "width": 35,
+          "height": 20,
+          "name": "Go",
+          "x": 177,
+          "y": 134
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "shar1.png",
+          "use1Xscale": false,
+          "name": "shar1.png",
+          "x": 132,
+          "y": 62
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "shar3.png",
+          "use1Xscale": false,
+          "name": "shar3.png",
+          "x": 258,
+          "y": 62
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "shar2.png",
+          "use1Xscale": false,
+          "name": "shar2.png",
+          "x": 195,
+          "y": 62
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "sasukemangshar.png",
+          "use1Xscale": false,
+          "name": "sasukemangshar.png",
+          "x": 141,
+          "y": 116
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "rinn1.png",
+          "use1Xscale": false,
+          "name": "rinn1.png",
+          "x": 222,
+          "y": 116
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "onClick": {
+            "name": "EyeTechniquesGuiOpen"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Back",
+          "x": 303,
+          "y": 188
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "_fv": 24,
+  "_type": "particle",
+  "definition": {
+    "texture": "gold_sand_particle.png",
+    "animate": false,
+    "frameDuration": 1,
+    "width": 0.4,
+    "height": 0.4,
+    "scale": 1.6,
+    "speedFactor": 1.5,
+    "gravity": 0.0,
+    "maxAge": 7,
+    "maxAgeDiff": 3,
+    "angularVelocity": 4.3,
+    "angularAcceleration": 0.06999999999999999,
+    "canCollide": false,
+    "alwaysShow": true,
+    "renderType": "OPAQUE"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "naruto_unleashed:custom/chakra_black_pipes",
+  "textures": {
+    "0": "naruto_unleashed:blocks/pain1",
+    "particle": "naruto_unleashed:items/tkisji"
+  }
+}

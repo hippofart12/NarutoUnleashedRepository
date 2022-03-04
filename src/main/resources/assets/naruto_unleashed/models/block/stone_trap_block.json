@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "naruto_unleashed:blocks/stonetrap",
+    "up": "naruto_unleashed:blocks/stonetrap",
+    "north": "naruto_unleashed:blocks/stonetrap",
+    "east": "naruto_unleashed:blocks/stonetrap",
+    "south": "naruto_unleashed:blocks/stonetrap",
+    "west": "naruto_unleashed:blocks/stonetrap",
+    "particle": "naruto_unleashed:blocks/stonetrap"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "_fv": 24,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "lava_release",
+    "customModelName": "Normal",
+    "name": "Fiery Rock Bullet",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:NarutoUnleashedTab"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "Blocks.LAVA"
+    },
+    "shootConstantly": false,
+    "usageCount": 100,
+    "actionSound": {
+      "value": "block.lava.pop"
+    },
+    "hasGlow": false,
+    "animation": "none",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 2.0,
+    "bulletDamage": 25.0,
+    "bulletKnockback": 2,
+    "bulletParticles": false,
+    "bulletIgnitesFire": true,
+    "bulletItemTexture": {
+      "value": ""
+    },
+    "bulletModel": "ModelLavaball",
+    "customBulletModelTexture": "lava_ball.png",
+    "onBulletHitsBlock": {
+      "name": "LavaBallBulletHitsBlock"
+    },
+    "onBulletHitsPlayer": {
+      "name": "LavaBallHitsPlayer"
+    },
+    "onBulletHitsEntity": {
+      "name": "LavaBallHitsPlayer"
+    },
+    "onBulletFlyingTick": {
+      "name": "LavaBallWhileBulletFlyingTick"
+    }
+  }
+}

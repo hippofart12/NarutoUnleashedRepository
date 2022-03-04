@@ -1,0 +1,36 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "chidori",
+    "customModelName": "Normal",
+    "name": "Chidori",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:NarutoUnleashedTab"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 8.5,
+    "enchantability": 0,
+    "damageVsEntity": 30.0,
+    "usageCount": 1,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedOnBlock": {
+      "name": "RasenganRightClickedOnBlock"
+    },
+    "onEntityHitWith": {
+      "name": "RasenganRightClickedOnBlock"
+    },
+    "onItemInInventoryTick": {
+      "name": "Chidoriinventorytick"
+    }
+  }
+}

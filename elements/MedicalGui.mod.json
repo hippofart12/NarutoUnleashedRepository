@@ -1,0 +1,407 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "ninjacard2.png",
+          "use1Xscale": false,
+          "name": "ninjacard2.png",
+          "x": 87,
+          "y": 26
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ninjacardtop.png",
+          "use1Xscale": true,
+          "name": "ninjacardtop.png",
+          "x": 87,
+          "y": 8
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Medical",
+          "color": {
+            "value": -3665978,
+            "falpha": 0.0
+          },
+          "name": "Medical",
+          "x": 96,
+          "y": 35
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "medicaljutsu.png",
+          "use1Xscale": false,
+          "name": "medicaljutsu.png",
+          "x": 303,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Jutsu",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Jutsu",
+          "x": 96,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Antidote",
+          "color": {
+            "value": -3470385,
+            "falpha": 0.0
+          },
+          "name": "Antidote",
+          "x": 96,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "antidotejutsu.png",
+          "use1Xscale": false,
+          "name": "antidotejutsu.png",
+          "x": 96,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "100 Jutsu Points",
+          "color": {
+            "value": -5432921,
+            "falpha": 0.0
+          },
+          "name": "100 Jutsu Points",
+          "x": 114,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Jutsu Combo: 310",
+          "color": {
+            "value": -4123679,
+            "falpha": 0.0
+          },
+          "name": "Jutsu Combo: 310",
+          "x": 114,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "310",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "310",
+          "x": 96,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "50 Chakra",
+          "color": {
+            "value": -1939469,
+            "falpha": 0.0
+          },
+          "name": "50 Chakra",
+          "x": 123,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Requires: 8 Medical",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Requires: 8 Medical",
+          "x": 96,
+          "y": 116
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Learn",
+          "onClick": {
+            "name": "AntidoteBuy"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Learn",
+          "x": 96,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Learnt",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "AntidoteLearntText"
+          },
+          "name": "Learnt",
+          "x": 132,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Page 1",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Page 1",
+          "x": 96,
+          "y": 197
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "onClick": {
+            "name": "OtherJutsuGuipage2Open"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Back",
+          "x": 303,
+          "y": 188
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Chakra Strength",
+          "color": {
+            "value": -3318297,
+            "falpha": 0.0
+          },
+          "name": "Chakra Strength",
+          "x": 213,
+          "y": 107
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "chakrastrengthjutsu.png",
+          "use1Xscale": false,
+          "name": "chakrastrengthjutsu.png",
+          "x": 213,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "450 Jutsu Points",
+          "color": {
+            "value": -2472744,
+            "falpha": 0.0
+          },
+          "name": "450 Jutsu Points",
+          "x": 231,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Jutsu Combo: 311",
+          "color": {
+            "value": -3860266,
+            "falpha": 0.0
+          },
+          "name": "Jutsu Combo: 311",
+          "x": 231,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "311",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "311",
+          "x": 213,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "350 Chakra",
+          "color": {
+            "value": -2291529,
+            "falpha": 0.0
+          },
+          "name": "350 Chakra",
+          "x": 240,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Requires: 20 Medical",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Requires: 20 Medical",
+          "x": 213,
+          "y": 143
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Learn",
+          "onClick": {
+            "name": "ChakraStrengthBuy"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Learn",
+          "x": 213,
+          "y": 161
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Learnt",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "ChakraStrengthLearntText"
+          },
+          "name": "Learnt",
+          "x": 249,
+          "y": 161
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Jutsu Points:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Jutsu Points:",
+          "x": 96,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:integer:JutsuPoints>",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "<VAR:integer:JutsuPoints>",
+          "x": 168,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "2 Ninjutsu",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "2 Ninjutsu",
+          "x": 96,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "10 Taijutsu",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "10 Taijutsu",
+          "x": 213,
+          "y": 152
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next",
+          "onClick": {
+            "name": "OpenMedicalPage2"
+          },
+          "width": 35,
+          "height": 20,
+          "name": "Next",
+          "x": 258,
+          "y": 188
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

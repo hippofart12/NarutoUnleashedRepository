@@ -1,0 +1,367 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "ninjacard2.png",
+          "use1Xscale": false,
+          "name": "ninjacard2.png",
+          "x": 87,
+          "y": 26
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ninjacardtop.png",
+          "use1Xscale": true,
+          "name": "ninjacardtop.png",
+          "x": 87,
+          "y": 8
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Steel Release",
+          "color": {
+            "value": -9342607,
+            "falpha": 0.0
+          },
+          "name": "Steel Release",
+          "x": 96,
+          "y": 35
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "steel_release.png",
+          "use1Xscale": false,
+          "name": "steel_release.png",
+          "x": 267,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Jutsu",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Jutsu",
+          "x": 96,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Impervious Armor",
+          "color": {
+            "value": -9342607,
+            "falpha": 0.0
+          },
+          "name": "Impervious Armor",
+          "x": 96,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "imperviousarmor.png",
+          "use1Xscale": false,
+          "name": "imperviousarmor.png",
+          "x": 96,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Page 1",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Page 1",
+          "x": 96,
+          "y": 197
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "5000 Jutsu Points",
+          "color": {
+            "value": -6645094,
+            "falpha": 0.0
+          },
+          "name": "5000 Jutsu Points",
+          "x": 114,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Jutsu Combo: 832",
+          "color": {
+            "value": -7960954,
+            "falpha": 0.0
+          },
+          "name": "Jutsu Combo: 832",
+          "x": 114,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "832",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "832",
+          "x": 96,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "600 Chakra",
+          "color": {
+            "value": -8816263,
+            "falpha": 0.0
+          },
+          "name": "600 Chakra",
+          "x": 123,
+          "y": 107
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Learn",
+          "onClick": {
+            "name": "ImperviousArmorBuy"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Learn",
+          "x": 96,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Learnt",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "ImperviousArmorLearntText"
+          },
+          "name": "Learnt",
+          "x": 132,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Requires: Ninjutsu 100",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Requires: Ninjutsu 100",
+          "x": 96,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Jutsu Points:",
+          "color": {
+            "value": -6842473,
+            "falpha": 0.0
+          },
+          "name": "Jutsu Points:",
+          "x": 96,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:integer:JutsuPoints>",
+          "color": {
+            "value": -4539718,
+            "falpha": 0.0
+          },
+          "name": "<VAR:integer:JutsuPoints>",
+          "x": 168,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Steel Projectile Jutsu",
+          "color": {
+            "value": -7303024,
+            "falpha": 0.0
+          },
+          "name": "Steel Projectile Jutsu",
+          "x": 213,
+          "y": 107
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "steelshot.png",
+          "use1Xscale": false,
+          "name": "steelshot.png",
+          "x": 213,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "4000 Jutsu Points",
+          "color": {
+            "value": -10066330,
+            "falpha": 0.0
+          },
+          "name": "4000 Jutsu Points",
+          "x": 231,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Jutsu Combo: 833",
+          "color": {
+            "value": -9539986,
+            "falpha": 0.0
+          },
+          "name": "Jutsu Combo: 833",
+          "x": 231,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "833",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "833",
+          "x": 213,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "800 Chakra",
+          "color": {
+            "value": -6381922,
+            "falpha": 0.0
+          },
+          "name": "800 Chakra",
+          "x": 240,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Requires: 85 Ninjutsu",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Requires: 85 Ninjutsu",
+          "x": 213,
+          "y": 143
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Learn",
+          "onClick": {
+            "name": "SteelProjectileBuy"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Learn",
+          "x": 213,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Learnt",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "SteelProjectileLearntText"
+          },
+          "name": "Learnt",
+          "x": 249,
+          "y": 152
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "onClick": {
+            "name": "OpenJutsuPage3Gui"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Back",
+          "x": 303,
+          "y": 188
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

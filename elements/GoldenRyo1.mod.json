@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 9,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:SilverRyo"
+      },
+      {
+        "value": "CUSTOM:SilverRyo"
+      },
+      {
+        "value": "CUSTOM:SilverRyo"
+      },
+      {
+        "value": "CUSTOM:SilverRyo"
+      },
+      {
+        "value": "CUSTOM:SilverRyo"
+      },
+      {
+        "value": "CUSTOM:SilverRyo"
+      },
+      {
+        "value": "CUSTOM:SilverRyo"
+      },
+      {
+        "value": "CUSTOM:SilverRyo"
+      },
+      {
+        "value": "CUSTOM:SilverRyo"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:GoldenRyo"
+    },
+    "name": "golden_ryo_1",
+    "namespace": "mod"
+  }
+}

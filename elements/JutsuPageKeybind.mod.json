@@ -1,0 +1,12 @@
+{
+  "_fv": 24,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "J",
+    "keyBindingName": "Player Scroll Keybind",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "JutsuPageKeybindOnKeyPressed"
+    }
+  }
+}

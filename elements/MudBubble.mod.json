@@ -1,0 +1,21 @@
+{
+  "_fv": 24,
+  "_type": "particle",
+  "definition": {
+    "texture": "mud_bubble.png",
+    "animate": false,
+    "frameDuration": 1,
+    "width": 0.30000000000000004,
+    "height": 0.30000000000000004,
+    "scale": 0.6,
+    "speedFactor": 0.1,
+    "gravity": -0.1,
+    "maxAge": 10,
+    "maxAgeDiff": 4,
+    "angularVelocity": 6.199999999999999,
+    "angularAcceleration": 0.0,
+    "canCollide": false,
+    "alwaysShow": true,
+    "renderType": "TRANSLUCENT"
+  }
+}

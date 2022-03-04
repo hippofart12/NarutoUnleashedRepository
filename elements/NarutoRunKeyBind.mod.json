@@ -1,0 +1,15 @@
+{
+  "_fv": 24,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "Z",
+    "keyBindingName": "Naruto Run Key Bind",
+    "keyBindingCategoryKey": "movement",
+    "onKeyPressed": {
+      "name": "NarutoRunKeyBindOnKeyPressed"
+    },
+    "onKeyReleased": {
+      "name": "NarutoRunKeyBindOnKeyReleased"
+    }
+  }
+}

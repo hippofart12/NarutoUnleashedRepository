@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    " 4 ",
+    " 78"
+  ],
+  "key": {
+    "0": {
+      "item": "naruto_unleashed:steel_ingot"
+    },
+    "2": {
+      "item": "naruto_unleashed:steel_ingot"
+    },
+    "4": {
+      "item": "naruto_unleashed:kunai"
+    },
+    "7": {
+      "item": "minecraft:paper"
+    },
+    "8": {
+      "item": "minecraft:ink_sac"
+    }
+  },
+  "result": {
+    "item": "naruto_unleashed:flying_raijin_kunai",
+    "count": 1
+  }
+}

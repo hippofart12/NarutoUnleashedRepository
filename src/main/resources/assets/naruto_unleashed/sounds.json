@@ -1,0 +1,75 @@
+{
+  "handsealsound": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "naruto_unleashed:58773__syna-max__anime-shing",
+        "stream": false
+      }
+    ]
+  },
+  "handsealb": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "naruto_unleashed:b",
+        "stream": false
+      }
+    ]
+  },
+  "handsealc": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "naruto_unleashed:c",
+        "stream": false
+      }
+    ]
+  },
+  "handsealv": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "naruto_unleashed:v",
+        "stream": false
+      }
+    ]
+  },
+  "ninjajumpsound": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "naruto_unleashed:jump",
+        "stream": false
+      }
+    ]
+  },
+  "scratch": {
+    "category": "player",
+    "subtitle": "subtitles.scratch",
+    "sounds": [
+      {
+        "name": "naruto_unleashed:471976__juanfg__scratch",
+        "stream": false
+      }
+    ]
+  },
+  "single_frog_croak": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "naruto_unleashed:251938__binarymonkflint__frog",
+        "stream": false
+      }
+    ]
+  },
+  "frog_croaks": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "naruto_unleashed:251938__binarymonkflint__frog2",
+        "stream": false
+      }
+    ]
+  }
+}

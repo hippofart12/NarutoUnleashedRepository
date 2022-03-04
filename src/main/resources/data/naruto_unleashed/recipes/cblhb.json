@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:light_gray_stained_glass"
+    },
+    {
+      "item": "naruto_unleashed:blank_blue_headband_helmet"
+    }
+  ],
+  "result": {
+    "item": "naruto_unleashed:cloud_blue_headband_helmet",
+    "count": 1
+  }
+}

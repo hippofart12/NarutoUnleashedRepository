@@ -1,0 +1,49 @@
+{
+  "_fv": 24,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "missile",
+    "customModelName": "Normal",
+    "name": "Missile",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 100,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "none",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 2.0,
+    "bulletDamage": 7.0,
+    "bulletKnockback": 0,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": ""
+    },
+    "bulletModel": "Modelmissile",
+    "customBulletModelTexture": "missile.png",
+    "onBulletHitsBlock": {
+      "name": "MissileBulletHitsBlock"
+    },
+    "onBulletHitsPlayer": {
+      "name": "MissileBulletHitsBlock"
+    },
+    "onBulletHitsEntity": {
+      "name": "MissileBulletHitsBlock"
+    },
+    "onBulletFlyingTick": {
+      "name": "MissileWhileBulletFlyingTick"
+    }
+  }
+}

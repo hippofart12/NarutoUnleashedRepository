@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_ingot"
+    },
+    "2": {
+      "item": "minecraft:iron_ingot"
+    },
+    "3": {
+      "item": "minecraft:light_gray_wool"
+    },
+    "4": {
+      "item": "minecraft:light_gray_wool"
+    },
+    "5": {
+      "item": "minecraft:light_gray_wool"
+    },
+    "6": {
+      "item": "minecraft:iron_ingot"
+    },
+    "7": {
+      "item": "minecraft:light_gray_wool"
+    },
+    "8": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "naruto_unleashed:anbu_chest_armor_chestplate",
+    "count": 1
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "naruto_unleashed:custom/flame_sword",
+  "textures": {
+    "0": "naruto_unleashed:blocks/flamesword",
+    "particle": "naruto_unleashed:items/flamesword"
+  }
+}

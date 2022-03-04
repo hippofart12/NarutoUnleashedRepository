@@ -1,0 +1,7 @@
+{
+  "parent": "naruto_unleashed:custom/water_blade",
+  "textures": {
+    "0": "naruto_unleashed:blocks/water_flow",
+    "particle": "naruto_unleashed:items/water_release"
+  }
+}

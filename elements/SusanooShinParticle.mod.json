@@ -1,0 +1,21 @@
+{
+  "_fv": 24,
+  "_type": "particle",
+  "definition": {
+    "texture": "susanoo_shin_particle.png",
+    "animate": true,
+    "frameDuration": 1,
+    "width": 0.4,
+    "height": 0.5,
+    "scale": 1.7000000000000002,
+    "speedFactor": 0.4,
+    "gravity": -2.2,
+    "maxAge": 2,
+    "maxAgeDiff": 4,
+    "angularVelocity": 0.0,
+    "angularAcceleration": 0.0,
+    "canCollide": true,
+    "alwaysShow": true,
+    "renderType": "TRANSLUCENT"
+  }
+}

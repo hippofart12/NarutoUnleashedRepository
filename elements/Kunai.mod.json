@@ -1,0 +1,43 @@
+{
+  "_fv": 24,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "kunai2",
+    "customModelName": "Normal",
+    "name": "Kunai",
+    "specialInfo": [
+      "Requires 5 Shurikenjutsu",
+      "1 Bukijutsu"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:NarutoUnleashedTab"
+    },
+    "stackSize": 64,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 1,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": true,
+    "damageVsEntity": 3.9999999999999996,
+    "useCondition": {
+      "name": "KunaiCanUseRangedItem"
+    },
+    "bulletPower": 1.1,
+    "bulletDamage": 7.0,
+    "bulletKnockback": 1,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:Kunai"
+    },
+    "bulletModel": "Modelkunai",
+    "customBulletModelTexture": "kunai_entity.png"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.DYE#16"
+      },
+      {
+        "value": "Items.DYE#16"
+      },
+      {
+        "value": "Items.DYE#16"
+      },
+      {
+        "value": "Items.DYE#19"
+      },
+      {
+        "value": "Items.DYE#1"
+      },
+      {
+        "value": "Items.DYE#19"
+      },
+      {
+        "value": "Items.DYE#16"
+      },
+      {
+        "value": "Items.LEATHER_CHESTPLATE"
+      },
+      {
+        "value": "Items.DYE#16"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AkatsukiRobe.body"
+    },
+    "name": "akatsuki_robe_black_recipe",
+    "namespace": "mod"
+  }
+}

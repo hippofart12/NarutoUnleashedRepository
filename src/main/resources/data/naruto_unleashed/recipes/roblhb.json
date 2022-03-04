@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:stone"
+    },
+    {
+      "item": "naruto_unleashed:blank_blue_headband_helmet"
+    }
+  ],
+  "result": {
+    "item": "naruto_unleashed:rock_blue_headband_helmet",
+    "count": 1
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "ninjacard2.png",
+          "use1Xscale": false,
+          "name": "ninjacard2.png",
+          "x": 87,
+          "y": 26
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ninjacardtop.png",
+          "use1Xscale": true,
+          "name": "ninjacardtop.png",
+          "x": 87,
+          "y": 8
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Other Jutsus",
+          "color": {
+            "value": -12500671,
+            "falpha": 0.0
+          },
+          "name": "Other Jutsus",
+          "x": 96,
+          "y": 35
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "chakra_moulding_diagram_28normal29.png",
+          "use1Xscale": true,
+          "name": "chakra_moulding_diagram_28normal29.png",
+          "x": 249,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Medical",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Medical",
+          "x": 96,
+          "y": 53
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "medicaljutsu.png",
+          "use1Xscale": false,
+          "name": "medicaljutsu.png",
+          "x": 177,
+          "y": 53
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Go",
+          "onClick": {
+            "name": "OpenMedicalGui"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Go",
+          "x": 96,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "3 Jutsu",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "3 Jutsu",
+          "x": 132,
+          "y": 62
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "onClick": {
+            "name": "OtherJutsuGuiOpen"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Back",
+          "x": 303,
+          "y": 188
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Taijutsu",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Taijutsu",
+          "x": 96,
+          "y": 89
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Go",
+          "onClick": {
+            "name": "OpenTaijutsuGui"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Go",
+          "x": 96,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "8 Jutsus",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "8 Jutsus",
+          "x": 131,
+          "y": 100
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "taijutsubody.png",
+          "use1Xscale": false,
+          "name": "taijutsubody.png",
+          "x": 177,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Uzumaki Jutsu",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Uzumaki Jutsu",
+          "x": 96,
+          "y": 125
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Go",
+          "onClick": {
+            "name": "OpenUzumakiJutsuGui"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Go",
+          "x": 96,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "2 Jutsu",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "2 Jutsu",
+          "x": 132,
+          "y": 134
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "uzumaki_jutsu.png",
+          "use1Xscale": false,
+          "name": "uzumaki_jutsu.png",
+          "x": 177,
+          "y": 125
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

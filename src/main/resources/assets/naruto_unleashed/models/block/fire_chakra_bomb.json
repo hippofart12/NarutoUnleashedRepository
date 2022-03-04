@@ -1,0 +1,8 @@
+{
+  "parent": "naruto_unleashed:custom/fire_chakra_bomb",
+  "textures": {
+    "all": "naruto_unleashed:blocks/firechakrabomb1",
+    "particle": "naruto_unleashed:blocks/firechakrabomb1",
+    "2": "naruto_unleashed:blocks/firechakrabomb1"
+  }
+}

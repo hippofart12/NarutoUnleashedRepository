@@ -1,0 +1,7 @@
+{
+  "parent": "naruto_unleashed:custom/lightning_blade",
+  "textures": {
+    "1": "naruto_unleashed:blocks/lightningblade",
+    "particle": "naruto_unleashed:items/lightning_release"
+  }
+}

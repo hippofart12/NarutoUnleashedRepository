@@ -1,0 +1,12 @@
+{
+  "_fv": 24,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "C",
+    "keyBindingName": "Jutsu Combo 1",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "JutsuComboCOnKeyPressed"
+    }
+  }
+}

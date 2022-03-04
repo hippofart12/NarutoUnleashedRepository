@@ -1,0 +1,52 @@
+{
+  "_fv": 24,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "kunai_explosif",
+    "customModelName": "Normal",
+    "name": "Explosive Kunai",
+    "specialInfo": [
+      "Requires 10 Shurikenjutsu",
+      "5 Bukijutsu"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:NarutoUnleashedTab"
+    },
+    "stackSize": 64,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 1,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": true,
+    "damageVsEntity": 4.0,
+    "useCondition": {
+      "name": "UseExplosiveKunai"
+    },
+    "bulletPower": 1.1,
+    "bulletDamage": 7.0,
+    "bulletKnockback": 1,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": ""
+    },
+    "bulletModel": "ModelExplosiveKunai",
+    "customBulletModelTexture": "explosivekunai_entity.png",
+    "onBulletHitsBlock": {
+      "name": "ExploKunaiHitsBlock"
+    },
+    "onBulletHitsPlayer": {
+      "name": "ExplosiveKunaiBulletHitsBlock"
+    },
+    "onBulletHitsEntity": {
+      "name": "ExplosiveKunaiBulletHitsBlock"
+    }
+  }
+}

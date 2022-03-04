@@ -1,0 +1,43 @@
+{
+  "_fv": 24,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "fire_release",
+    "customModelName": "Normal",
+    "name": "Sticky Fire Shot",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:NarutoUnleashedTab"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 100,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 1.4000000000000001,
+    "bulletDamage": 5.0,
+    "bulletKnockback": 0,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": ""
+    },
+    "bulletModel": "ModelStickyFireShot",
+    "customBulletModelTexture": "fireball1_-_copy_2.png",
+    "onBulletHitsPlayer": {
+      "name": "StickyFireShotBulletHitsLivingEntity"
+    },
+    "onBulletHitsEntity": {
+      "name": "StickyFireShotBulletHitsLivingEntity"
+    }
+  }
+}

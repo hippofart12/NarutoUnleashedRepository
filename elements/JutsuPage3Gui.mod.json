@@ -1,0 +1,475 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "ninjacard2.png",
+          "use1Xscale": false,
+          "name": "ninjacard2.png",
+          "x": 87,
+          "y": 26
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ninjacardtop.png",
+          "use1Xscale": true,
+          "name": "ninjacardtop.png",
+          "x": 87,
+          "y": 8
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ninjacard2.png",
+          "use1Xscale": false,
+          "name": "ninjacard2.png",
+          "x": 87,
+          "y": 49
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Jutsu",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Jutsu",
+          "x": 96,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Dust Release",
+          "color": {
+            "value": -3835125,
+            "falpha": 0.0
+          },
+          "name": "Dust Release",
+          "x": 132,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Mud Release",
+          "color": {
+            "value": -10998524,
+            "falpha": 0.0
+          },
+          "name": "Mud Release",
+          "x": 132,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Steel Release",
+          "color": {
+            "value": -11119018,
+            "falpha": 0.0
+          },
+          "name": "Steel Release",
+          "x": 132,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Storm Release",
+          "color": {
+            "value": -15530835,
+            "falpha": 0.0
+          },
+          "name": "Storm Release",
+          "x": 132,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Swift Release",
+          "color": {
+            "value": -22528,
+            "falpha": 0.0
+          },
+          "name": "Swift Release",
+          "x": 132,
+          "y": 206
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "dust_release.png",
+          "use1Xscale": true,
+          "name": "dust_release.png",
+          "x": 96,
+          "y": 53
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "mud_release.png",
+          "use1Xscale": true,
+          "name": "mud_release.png",
+          "x": 96,
+          "y": 89
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "steel_release.png",
+          "use1Xscale": true,
+          "name": "steel_release.png",
+          "x": 96,
+          "y": 125
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "storm_release.png",
+          "use1Xscale": true,
+          "name": "storm_release.png",
+          "x": 96,
+          "y": 161
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "swift_release.png",
+          "use1Xscale": true,
+          "name": "swift_release.png",
+          "x": 96,
+          "y": 197
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Go",
+          "onClick": {
+            "name": "OpenDustReleaseGui"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Go",
+          "x": 141,
+          "y": 71
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Go",
+          "onClick": {
+            "name": "OpenMudReleaseGui"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Go",
+          "x": 141,
+          "y": 107
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Go",
+          "onClick": {
+            "name": "OpenSteelReleaseGui"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Go",
+          "x": 141,
+          "y": 143
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Go",
+          "onClick": {
+            "name": "OpenStormReleaseGui"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Go",
+          "x": 141,
+          "y": 179
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Go",
+          "onClick": {
+            "name": "OpenSwiftReleaseGui"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Go",
+          "x": 141,
+          "y": 215
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Typhoon Release",
+          "color": {
+            "value": -16711613,
+            "falpha": 0.0
+          },
+          "name": "Typhoon Release",
+          "x": 258,
+          "y": 62
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Go",
+          "onClick": {
+            "name": "OpenTyphoonReleaseGui"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Go",
+          "x": 258,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1 Jutsus",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "1 Jutsus",
+          "x": 177,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "2 Jutsus",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "2 Jutsus",
+          "x": 177,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "2 Jutsus",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "2 Jutsus",
+          "x": 177,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "2 Jutsus",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "2 Jutsus",
+          "x": 177,
+          "y": 179
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1 Jutsus",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "1 Jutsus",
+          "x": 177,
+          "y": 215
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "2 Jutsus",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "2 Jutsus",
+          "x": 294,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Unlocked",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "DustReleaseUnlockedText"
+          },
+          "name": "Unlocked",
+          "x": 177,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Unlocked",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "MudReleaseUnlockedText"
+          },
+          "name": "Unlocked",
+          "x": 177,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Unlocked",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "SteelReleaseUnlockText"
+          },
+          "name": "Unlocked",
+          "x": 177,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Unlocked",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "StormReleaseUnlockText"
+          },
+          "name": "Unlocked",
+          "x": 177,
+          "y": 188
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Unlocked",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "SwiftReleaseUnlockText"
+          },
+          "name": "Unlocked",
+          "x": 177,
+          "y": 224
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "typhoonrelease.png",
+          "use1Xscale": true,
+          "name": "typhoonrelease.png",
+          "x": 222,
+          "y": 53
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "onClick": {
+            "name": "OpenJutsuPage2Gui"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Back",
+          "x": 303,
+          "y": 206
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Unlocked",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "TyphoonReleaseUnlockText"
+          },
+          "name": "Unlocked",
+          "x": 294,
+          "y": 80
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

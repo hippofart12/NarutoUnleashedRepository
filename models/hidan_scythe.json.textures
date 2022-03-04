@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "hidan-curse_mode"
+      },
+      "name": "default"
+    }
+  }
+}

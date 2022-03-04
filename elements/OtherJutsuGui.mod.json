@@ -1,0 +1,293 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "ninjacard2.png",
+          "use1Xscale": false,
+          "name": "ninjacard2.png",
+          "x": 87,
+          "y": 26
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ninjacardtop.png",
+          "use1Xscale": true,
+          "name": "ninjacardtop.png",
+          "x": 87,
+          "y": 8
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Other Jutsus",
+          "color": {
+            "value": -12500671,
+            "falpha": 0.0
+          },
+          "name": "Other Jutsus",
+          "x": 96,
+          "y": 35
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "chakra_moulding_diagram_28normal29.png",
+          "use1Xscale": true,
+          "name": "chakra_moulding_diagram_28normal29.png",
+          "x": 249,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Body Techniques",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Body Techniques",
+          "x": 96,
+          "y": 53
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bodytechniquebody.png",
+          "use1Xscale": false,
+          "name": "bodytechniquebody.png",
+          "x": 177,
+          "y": 53
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Go",
+          "onClick": {
+            "name": "BodyTechniquesGuiOpen"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Go",
+          "x": 96,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Chakra Flow",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Chakra Flow",
+          "x": 96,
+          "y": 89
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Go",
+          "onClick": {
+            "name": "ChakraFlowGuiOpen"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Go",
+          "x": 96,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "chakraflowbody.png",
+          "use1Xscale": false,
+          "name": "chakraflowbody.png",
+          "x": 177,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Chakra Forms",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Chakra Forms",
+          "x": 96,
+          "y": 125
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Go",
+          "onClick": {
+            "name": "ChakraFormGuiOpen"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Go",
+          "x": 96,
+          "y": 134
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "chakraformsbody.png",
+          "use1Xscale": false,
+          "name": "chakraformsbody.png",
+          "x": 177,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "2 Jutsu",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "2 Jutsu",
+          "x": 132,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1 Jutsu",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "1 Jutsu",
+          "x": 132,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "2 Jutsu",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "2 Jutsu",
+          "x": 132,
+          "y": 134
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "onClick": {
+            "name": "JutsuPageOnKeyPressed"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Back",
+          "x": 303,
+          "y": 188
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Eye Techniques",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Eye Techniques",
+          "x": 96,
+          "y": 161
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Go",
+          "onClick": {
+            "name": "EyeTechniquesGuiOpen"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Go",
+          "x": 96,
+          "y": 170
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "eyetechniquesbody.png",
+          "use1Xscale": false,
+          "name": "eyetechniquesbody.png",
+          "x": 177,
+          "y": 161
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1 Jutsu",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "1 Jutsu",
+          "x": 132,
+          "y": 170
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next",
+          "onClick": {
+            "name": "OtherJutsuGuipage2Open"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Next",
+          "x": 267,
+          "y": 188
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

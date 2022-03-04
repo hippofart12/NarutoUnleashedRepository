@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "naruto_unleashed:block/transparent_explosive_tag_block"
+    },
+    "facing=east": {
+      "model": "naruto_unleashed:block/transparent_explosive_tag_block",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "naruto_unleashed:block/transparent_explosive_tag_block",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "naruto_unleashed:block/transparent_explosive_tag_block",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "naruto_unleashed:block/transparent_explosive_tag_block",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "naruto_unleashed:block/transparent_explosive_tag_block",
+      "x": 90
+    }
+  }
+}

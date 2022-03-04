@@ -1,0 +1,20 @@
+{
+  "_fv": 24,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Uzumaki Chained",
+    "icon": "chakrachain.png",
+    "color": {
+      "value": -2513920,
+      "falpha": 0.0
+    },
+    "isInstant": true,
+    "isBad": true,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onActiveTick": {
+      "name": "UzumakiChainedOnPotionActiveTick"
+    }
+  }
+}

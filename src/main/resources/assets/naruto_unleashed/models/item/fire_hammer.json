@@ -1,0 +1,7 @@
+{
+  "parent": "naruto_unleashed:custom/firehammer",
+  "textures": {
+    "0": "naruto_unleashed:blocks/flame_hammer",
+    "particle": "naruto_unleashed:items/fire_release"
+  }
+}

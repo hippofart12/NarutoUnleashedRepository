@@ -1,0 +1,338 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "ninjacard2.png",
+          "use1Xscale": false,
+          "name": "ninjacard2.png",
+          "x": 87,
+          "y": 26
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ninjacardtop.png",
+          "use1Xscale": true,
+          "name": "ninjacardtop.png",
+          "x": 87,
+          "y": 8
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Madara",
+          "color": {
+            "value": -3407872,
+            "falpha": 0.0
+          },
+          "name": "Madara",
+          "x": 96,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Mangekyo Sharingan",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Mangekyo Sharingan",
+          "x": 96,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "madarams.png",
+          "use1Xscale": true,
+          "name": "madarams.png",
+          "x": 96,
+          "y": 143
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "onClick": {
+            "name": "OpenMangekyoSharingansGUI"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "Back",
+          "x": 294,
+          "y": 188
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "uchiha.png",
+          "use1Xscale": false,
+          "name": "uchiha.png",
+          "x": 312,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Requirements",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Requirements",
+          "x": 96,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Requires: Uchiha Clan",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Requires: Uchiha Clan",
+          "x": 96,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "when on:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "when on:",
+          "x": 96,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Speed 3",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Speed 3",
+          "x": 96,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Strength 3",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Strength 3",
+          "x": 96,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Resistance 3",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Resistance 3",
+          "x": 96,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Requires: 30,000 Jutsu Points",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Requires: 30,000 Jutsu Points",
+          "x": 96,
+          "y": 80
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Learn",
+          "onClick": {
+            "name": "MadaraMSBuy"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Learn",
+          "x": 177,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Learnt",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "MadaraMSLearntText"
+          },
+          "name": "Learnt",
+          "x": 213,
+          "y": 107
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "madarams.png",
+          "use1Xscale": true,
+          "name": "madarams.png",
+          "x": 204,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Requires: Tomoe 3",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Requires: Tomoe 3",
+          "x": 96,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Powers",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Powers",
+          "x": 258,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Bijuu Control",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Bijuu Control",
+          "x": 258,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Susano",
+          "color": {
+            "value": -16777063,
+            "falpha": 0.0
+          },
+          "name": "Susano",
+          "x": 285,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Jutsu Points:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Jutsu Points:",
+          "x": 195,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:integer:JutsuPoints>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "<VAR:integer:JutsuPoints>",
+          "x": 258,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "coming soon...",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "coming soon...",
+          "x": 258,
+          "y": 83
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Go",
+          "onClick": {
+            "name": "OpenMadaraSusanooGui"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Go",
+          "x": 285,
+          "y": 134
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}
